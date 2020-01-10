@@ -1,6 +1,20 @@
 #include <iostream>
+#include<string>
+using namespace std;
+
 
 //Write compress() here.
+string conpress(string text)
+{
+    int i=0;
+    string com="";
+    while(i<text.size())
+    {
+        com = com+text[i];
+        i =i+3;
+    }
+    return com;
+}
 
 int main()
 {
